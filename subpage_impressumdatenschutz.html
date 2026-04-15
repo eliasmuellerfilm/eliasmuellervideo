@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impressum & Datenschutz – Elias Müller</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--black:#0e0e0e;--sb-dark:#1d1d1b;--white:#f5f5f3;--muted:#666;--rule:#2a2a28;--fd:'Barlow Condensed',sans-serif;--fb:'Barlow',sans-serif}
+    body{background:var(--black);color:var(--white);font-family:var(--fb);font-weight:300;line-height:1.7;-webkit-font-smoothing:antialiased}
+    .container{max-width:960px;margin:0 auto;padding:0 2rem}
+
+    /* NAV */
+    .top-nav{padding:1.5rem 0;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between;align-items:center}
+    .top-nav a{color:var(--muted);text-decoration:none;font-size:.7rem;letter-spacing:.25em;text-transform:uppercase;display:inline-flex;align-items:center;gap:.5rem;transition:color .25s}
+    .top-nav a:hover{color:var(--white)}
+
+    /* HEADER */
+    .page-header{padding:4.5rem 0 3rem;border-bottom:1px solid var(--rule);margin-bottom:5rem}
+    .tag{font-family:var(--fd);font-size:.6rem;letter-spacing:.4em;text-transform:uppercase;color:var(--muted);margin-bottom:.9rem;font-weight:400}
+    .page-title{font-family:var(--fd);font-size:clamp(2.8rem,5vw,4.5rem);font-weight:700;line-height:.95;text-transform:uppercase;letter-spacing:.02em}
+
+    /* CONTENT */
+    .legal-content{display:grid;grid-template-columns:1fr 2fr;gap:6rem;margin-bottom:6rem}
+    .legal-nav{position:sticky;top:3rem}
+    .legal-nav-title{font-family:var(--fd);font-size:.6rem;letter-spacing:.35em;text-transform:uppercase;color:var(--muted);margin-bottom:1.5rem}
+    .legal-nav a{display:block;font-family:var(--fd);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:.5rem 0;border-bottom:1px solid var(--rule);transition:color .25s}
+    .legal-nav a:hover{color:var(--white)}
+
+    .legal-sections{min-width:0}
+    .legal-section{margin-bottom:4rem}
+    .legal-section:last-child{margin-bottom:0}
+    .legal-section-title{font-family:var(--fd);font-size:1.4rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--white);margin-bottom:2rem;padding-bottom:1rem;border-bottom:1px solid var(--rule)}
+    .legal-block{margin-bottom:2rem}
+    .legal-block-title{font-family:var(--fd);font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--white);font-weight:500;margin-bottom:.8rem}
+    .legal-block p{font-size:.9rem;color:var(--muted);line-height:1.9;margin-bottom:.8rem}
+    .legal-block p:last-child{margin-bottom:0}
+    .legal-block a{color:var(--muted);transition:color .25s}
+    .legal-block a:hover{color:var(--white)}
+    .legal-address{font-size:.9rem;color:var(--muted);line-height:2}
+
+    /* FOOTER */
+    footer{padding:2.5rem 0;border-top:1px solid var(--rule)}
+    .footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+    .footer-links{display:flex;gap:2rem}
+    .footer-links a{color:var(--muted);text-decoration:none;font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;transition:color .25s}
+    .footer-links a:hover{color:var(--white)}
+
+    @media(max-width:700px){
+      .legal-content{grid-template-columns:1fr;gap:3rem}
+      .legal-nav{position:static}
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <nav class="top-nav">
+    <a href="index.html" style="font-family:var(--fd);font-size:1rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(245,245,243,.5);text-decoration:none">Elias Müller</a>
+    <a href="index.html">← Zurück</a>
+  </nav>
+
+  <header class="page-header">
+    <div class="tag">Legal</div>
+    <h1 class="page-title">Impressum &amp;<br>Datenschutz</h1>
+  </header>
+
+  <div class="legal-content">
+
+    <!-- Seitennavigation -->
+    <aside class="legal-nav">
+      <div class="legal-nav-title">Inhalt</div>
+      <a href="#impressum">Impressum</a>
+      <a href="#haftung-inhalte">Haftung für Inhalte</a>
+      <a href="#haftung-links">Haftung für Links</a>
+      <a href="#urheberrecht">Urheberrecht</a>
+      <a href="#datenschutz">Datenschutzerklärung</a>
+      <a href="#youtube">YouTube</a>
+      <a href="#webfonts">Google Web Fonts</a>
+    </aside>
+
+    <!-- Rechtstexte -->
+    <div class="legal-sections">
+
+      <div class="legal-section" id="impressum">
+        <div class="legal-section-title">Impressum</div>
+        <div class="legal-block">
+          <div class="legal-block-title">Angaben gemäß § 5 TMG</div>
+          <p class="legal-address">
+            Elias Müller<br>
+            Mittlere Kreuzgasse 2<br>
+            90403 Nürnberg
+          </p>
+        </div>
+        <div class="legal-block">
+          <div class="legal-block-title">Kontakt</div>
+          <p class="legal-address">
+            Telefon: +49 (0) 176 57772673<br>
+            E-Mail: kontakt@eliasmuellerfilm.de
+          </p>
+        </div>
+        <div class="legal-block">
+          <div class="legal-block-title">Verbraucherstreitbeilegung / Universalschlichtungsstelle</div>
+          <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+          <p>Quelle: <a href="https://www.e-recht24.de" target="_blank">e-recht24.de</a></p>
+        </div>
+      </div>
+
+      <div class="legal-section" id="haftung-inhalte">
+        <div class="legal-section-title">Haftung für Inhalte</div>
+        <div class="legal-block">
+          <p>Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
+          <p>Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p>
+        </div>
+      </div>
+
+      <div class="legal-section" id="haftung-links">
+        <div class="legal-section-title">Haftung für Links</div>
+        <div class="legal-block">
+          <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.</p>
+          <p>Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>
+        </div>
+      </div>
+
+      <div class="legal-section" id="urheberrecht">
+        <div class="legal-section-title">Urheberrecht</div>
+        <div class="legal-block">
+          <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.</p>
+          <p>Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
+        </div>
+      </div>
+
+      <div class="legal-section" id="datenschutz">
+        <div class="legal-section-title">Datenschutzerklärung</div>
+        <div class="legal-block">
+          <div class="legal-block-title">Allgemeiner Hinweis und Pflichtinformationen</div>
+          <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
+          <p class="legal-address">
+            Elias Müller<br>
+            Mittlere Kreuzgasse 2<br>
+            90403 Nürnberg
+          </p>
+          <p>Die verantwortliche Stelle entscheidet allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, Kontaktdaten o. Ä.).</p>
+        </div>
+        <div class="legal-block">
+          <div class="legal-block-title">Widerruf Ihrer Einwilligung zur Datenverarbeitung</div>
+          <p>Nur mit Ihrer ausdrücklichen Einwilligung sind einige Vorgänge der Datenverarbeitung möglich. Ein Widerruf Ihrer bereits erteilten Einwilligung ist jederzeit möglich. Für den Widerruf genügt eine formlose Mitteilung per E-Mail. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.</p>
+        </div>
+        <div class="legal-block">
+          <div class="legal-block-title">Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde</div>
+          <p>Als Betroffener steht Ihnen im Falle eines datenschutzrechtlichen Verstoßes ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Zuständige Aufsichtsbehörde bezüglich datenschutzrechtlicher Fragen ist der Landesdatenschutzbeauftragte des Bundeslandes, in dem sich der Sitz unseres Unternehmens befindet. Der folgende Link stellt eine Liste der Datenschutzbeauftragten sowie deren Kontaktdaten bereit: <a href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html" target="_blank">bfdi.bund.de</a>.</p>
+        </div>
+        <div class="legal-block">
+          <div class="legal-block-title">Recht auf Datenübertragbarkeit</div>
+          <p>Ihnen steht das Recht zu, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an Dritte aushändigen zu lassen. Die Bereitstellung erfolgt in einem maschinenlesbaren Format. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.</p>
+        </div>
+        <div class="legal-block">
+          <div class="legal-block-title">Recht auf Auskunft, Berichtigung, Sperrung, Löschung</div>
+          <p>Sie haben jederzeit im Rahmen der geltenden gesetzlichen Bestimmungen das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, Herkunft der Daten, deren Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Diesbezüglich und auch zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit über die im Impressum aufgeführten Kontaktmöglichkeiten an uns wenden.</p>
+        </div>
+        <div class="legal-block">
+          <div class="legal-block-title">SSL- bzw. TLS-Verschlüsselung</div>
+          <p>Aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, die Sie an uns als Seitenbetreiber senden, nutzt unsere Website eine SSL- bzw. TLS-Verschlüsselung. Damit sind Daten, die Sie über diese Website übermitteln, für Dritte nicht mitlesbar. Sie erkennen eine verschlüsselte Verbindung an der „https://" Adresszeile Ihres Browsers und am Schloss-Symbol in der Browserzeile.</p>
+        </div>
+      </div>
+
+      <div class="legal-section" id="youtube">
+        <div class="legal-section-title">YouTube</div>
+        <div class="legal-block">
+          <p>Für Integration und Darstellung von Videoinhalten nutzt unsere Website Plugins von YouTube. Anbieter des Videoportals ist die YouTube, LLC, 901 Cherry Ave., San Bruno, CA 94066, USA.</p>
+          <p>Bei Aufruf einer Seite mit integriertem YouTube-Plugin wird eine Verbindung zu den Servern von YouTube hergestellt. YouTube erfährt hierdurch, welche unserer Seiten Sie aufgerufen haben.</p>
+          <p>YouTube kann Ihr Surfverhalten direkt Ihrem persönlichen Profil zuzuordnen, sollten Sie in Ihrem YouTube-Konto eingeloggt sein. Durch vorheriges Ausloggen haben Sie die Möglichkeit, dies zu unterbinden.</p>
+          <p>Die Nutzung von YouTube erfolgt im Interesse einer ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar. Einzelheiten zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von YouTube unter: <a href="https://www.google.de/intl/de/policies/privacy" target="_blank">google.de/intl/de/policies/privacy</a>.</p>
+        </div>
+      </div>
+
+      <div class="legal-section" id="webfonts">
+        <div class="legal-section-title">Google Web Fonts</div>
+        <div class="legal-block">
+          <p>Unsere Website verwendet Web Fonts von Google. Anbieter ist die Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.</p>
+          <p>Durch den Einsatz dieser Web Fonts wird es möglich, Ihnen die von uns gewünschte Darstellung unserer Website zu präsentieren, unabhängig davon, welche Schriften Ihnen lokal zur Verfügung stehen. Dies erfolgt über den Abruf der Google Web Fonts von einem Server von Google in den USA und der damit verbundenen Weitergabe Ihrer Daten an Google. Dabei handelt es sich um Ihre IP-Adresse und welche Seite Sie bei uns besucht haben. Der Einsatz von Google Web Fonts erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.</p>
+          <p>Einzelheiten über Google Web Fonts finden Sie unter: <a href="https://www.google.com/fonts#AboutPlace:about" target="_blank">google.com/fonts</a> und weitere Informationen in den Datenschutzbestimmungen von Google: <a href="https://policies.google.com/privacy/partners?hl=de" target="_blank">policies.google.com</a>.</p>
+          <p>Quelle: Datenschutz-Konfigurator von <a href="https://www.mein-datenschutzbeauftragter.de" target="_blank">mein-datenschutzbeauftragter.de</a></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <span style="font-family:var(--fd);font-size:.85rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(245,245,243,.35)">Elias Müller</span>
+      <nav class="footer-links">
+        <a href="index.html">Startseite</a>
+      </nav>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
